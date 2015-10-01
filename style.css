@@ -1,136 +1,119 @@
 @font-face {
-  font-family: 'paperstac';
-  src: url('fonts/paperstac.eot?-hdh3xy');
-  src: url('fonts/paperstac.eot?#iefix-hdh3xy') format('embedded-opentype'),
-  url('fonts/paperstac.ttf?-hdh3xy') format('truetype'),
-  url('fonts/paperstac.woff?-hdh3xy') format('woff'),
-  url('fonts/paperstac.svg?-hdh3xy#paperstac') format('svg');
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'paperstac';
+	src:url('fonts/paperstac.eot?k1mx76');
+	src:url('fonts/paperstac.eot?k1mx76#iefix') format('embedded-opentype'),
+		url('fonts/paperstac.ttf?k1mx76') format('truetype'),
+		url('fonts/paperstac.woff?k1mx76') format('woff'),
+		url('fonts/paperstac.svg?k1mx76#paperstac') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
-  font-family: 'paperstac';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
+	font-family: 'paperstac';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
 
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-paperstac:before {
+	content: "\e61d";
+}
+.icon-signature:before {
+	content: "\e61a";
+}
 .icon-chevron-down-thin:before {
-  content: "\e612";
+	content: "\e612";
 }
-
 .icon-chevron-left-thin:before {
-  content: "\e613";
+	content: "\e613";
 }
-
 .icon-chevron-right-thin:before {
-  content: "\e614";
+	content: "\e614";
 }
-
 .icon-chevron-up-thin:before {
-  content: "\e615";
+	content: "\e615";
 }
-
-.icon-notes:before,
 .icon-documents:before {
-  content: "\e616";
+	content: "\e616";
 }
-
-.icon-add-note:before,
 .icon-add-document:before {
-  content: "\e617";
+	content: "\e617";
 }
-
-.icon-note:before,
 .icon-document:before {
-  content: "\e618";
+	content: "\e618";
 }
-
-.icon-delete-note:before,
 .icon-delete-document:before {
-  content: "\e619";
+	content: "\e619";
 }
-
-.icon-calendar:before {
-  content: "\f073";
+.icon-phone:before {
+	content: "\e61b";
 }
-
+.icon-authenticate:before {
+	content: "\e61c";
+}
 .icon-home:before {
-  content: "\e601";
+	content: "\e601";
 }
-
 .icon-edit:before {
-  content: "\e602";
+	content: "\e602";
 }
-
 .icon-image:before {
-  content: "\e611";
+	content: "\e611";
 }
-
 .icon-notifications:before {
-  content: "\e603";
+	content: "\e603";
 }
-
 .icon-add-user:before {
-  content: "\e60a";
+	content: "\e60a";
 }
-
 .icon-menu:before {
-  content: "\e600";
+	content: "\e600";
 }
-
 .icon-link:before {
-  content: "\e60b";
+	content: "\e60b";
 }
-
 .icon-bang:before {
-  content: "\e60c";
+	content: "\e60c";
 }
-
 .icon-add:before {
-  content: "\e610";
+	content: "\e610";
 }
-
 .icon-info:before {
-  content: "\e60d";
+	content: "\e60d";
 }
-
 .icon-delete:before {
-  content: "\e604";
+	content: "\e604";
 }
-
 .icon-checkmark:before {
-  content: "\e60e";
+	content: "\e60e";
 }
-
 .icon-login:before {
-  content: "\e605";
+	content: "\e605";
 }
-
 .icon-logout:before {
-  content: "\e606";
+	content: "\e606";
 }
-
 .icon-google:before {
-  content: "\e607";
+	content: "\e607";
 }
-
 .icon-facebook:before {
-  content: "\e608";
+	content: "\e608";
 }
-
 .icon-twitter:before {
-  content: "\e609";
+	content: "\e609";
+}
+.icon-file-pdf:before {
+	content: "\e60f";
+}
+.icon-calendar:before {
+	content: "\f073";
 }
 
-.icon-file-pdf:before {
-  content: "\e60f";
-}
